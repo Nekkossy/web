@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Log in</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="mx-5">
+        <header class="container-fluid text-white text-center" style="background-color: #ff69b4">
+            <h1>Welcome to Hello Kitty's Fan Page</h1>
+            <nav>
+                <a href="/Index.html" class="btn text-white" style="background-color: #ff85c0">Home</a>
+                <a href="#Club" class="btn text-white" style="background-color: #ff85c0">Club</a>
+                <a href="/Other Pages/Both.html" class="btn text-white" style="background-color: #ff85c0">Store</a>
+            </nav>
+        </header>
+
+        <main class="container-fluid my-4">
+            <div class="row">
+                <aside class="col-sm-6 col-lg-4" style="background-color: #ffe4e1; padding: 20px; border-radius: 10px;">
+                    <h2>The Enduring Charm of a Timeless Icon</h2>
+                    <p>Over the years, certain characters have become cultural icons. Today, this figure remains a symbol of positivity and creativity, with lasting influence through collaborations, events, and a community of fans celebrating her timeless appeal.</p>
+                    <p>Whether you're looking to add some memorabilia to your collection, attend exciting events, or dive into the world of fan-created stories, there are endless ways to connect with this iconic figure. Below, you will find a few links to help you explore more of what the community has to offer:</p>
+                    <ul>
+                        <li><a href="https://www.sanrio.com/collections/hello-kitty?srsltid=AfmBOoqDWFL3dtCTfnWM5UTRglxtqHrt63IjhsmBsA9NqYjM_pJpkxrL" style="color: #ff69b4">Merchandise</a></li>
+                        <li><a href="https://hellokitty.cafe/pages/eventos" style="color: #ff69b4">Events</a></li>
+                        <li><a href="https://www.quotev.com/stories/c/Fanfiction/Hello+Kitty" style="color: #ff69b4">Fan Stories</a></li>
+                    </ul>
+                </aside>
+
+                <div class="col-md-6 col-lg-4 d-none d-md-block d-sm-none">
+                    <a href="https://es.wikipedia.org/wiki/Hello_Kitty">
+                        <img src="Images/HelloKittyBootstrap.jpg" alt="Hello Kitty Image" class="img-fluid">
+                    </a>
+                </div>
+
+                <div class="col-sm-6 col-md-12 col-lg-4" style="background-color: #ffe4e1; padding: 20px; border-radius: 10px;">
+                    <h2>All About Hello Kitty</h2>
+                    <p>Hello Kitty is more than just a character—she is a symbol of friendship, love, and positivity. Since her debut in 1974, she has brought joy to fans of all ages with her adorable bow, charming smile, and heartwarming stories. Join the Hello Kitty world and celebrate the magic she spreads every day!</p>
+                    <p>Created by Sanrio, Hello Kitty quickly became a global icon. She has appeared on countless products, from plush toys to stationery, and has even become a beloved character in TV shows, movies, and theme parks. Her positive and uplifting spirit encourages people to stay kind, compassionate, and always look on the bright side of life.</p>
+                    <p>Whether you're a long-time fan or just discovering her, Hello Kitty welcomes everyone with open arms. Explore the world of Hello Kitty and become a part of the global community of fans who share her message of love and happiness!</p>
+                </div>
+            </div>
+        </main>
+
+        <h2 id="Club" class="container-fluid text-center py-3" style="background-color: #DB7093">Join the Hello Kitty Fan Club</h2>
+        <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="POST" style="background-color: #FFCCCB; padding: 20px; border-radius: 10px;">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+                    </div>
+        
+                    <div class="col-md-6">
+                        <label for="lastname" class="form-label">Last Name:</label>
+                        <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter your last name">
+                    </div>
+                </div>
+        
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <label>Favorite Hello Kitty Theme:</label>
+                        <div class="form-check">
+                            <input type="radio" name="theme" id="classic" class="form-check-input" value="classic">
+                            <label for="classic" class="form-check-label">Classic</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" name="theme" id="modern" class="form-check-input" value="modern">
+                            <label for="modern" class="form-check-label">Modern</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="radio" name="theme" id="cute" class="form-check-input" value="cute">
+                            <label for="cute" class="form-check-label">Super Cute</label>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4">
+                        <label for="city" class="form-label">City:</label>
+                        <select id="city" name="city" class="form-select">
+                            <option>Select</option>
+                            <option value="Tokyo">Tokyo</option>
+                            <option value="Sanrio Town">Sanrio Town</option>
+                            <option value="Paris">Paris</option>
+                            <option value="New York">New York</option>
+                            <option value="Seoul">Seoul</option>
+                        </select>
+                    </div>
+        
+                    <div class="col-md-4">
+                        <label for="terms" class="form-label">Please confirm:</label>
+                        <div>
+                            <input type="checkbox" class="form-check-input" id="terms" name="terms" value="I love Hello Kitty!">
+                            <label class="form-check-label" for="terms">I love Hello Kitty!</label>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <button class="btn text-white" style="background-color: #ff69b4; padding: 10px 30px;" type="submit">Join Now</button>
+                    </div>
+                </div>
+        
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <button class="btn btn-secondary" style="padding: 10px 30px;" type="reset">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
